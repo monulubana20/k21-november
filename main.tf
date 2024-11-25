@@ -14,7 +14,7 @@ output "s3id" {
 }
 
 variable "buck-name" {
-  default = "buck-var-k21"
+  default = "berry"
   #description = "Please enter S3 bucket name"
 }
 
