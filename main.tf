@@ -14,8 +14,8 @@ output "s3id" {
 }
 
 variable "buck-name" {
-  #default = "buck-var-k21"
-  description = "Please enter S3 bucket name"
+  default = "buck-var-k21"
+  #description = "Please enter S3 bucket name"
 }
 
 resource "aws_instance" "myname" {
